@@ -1,0 +1,3 @@
+class KTextStyle {
+  KTextStyle._();
+}
