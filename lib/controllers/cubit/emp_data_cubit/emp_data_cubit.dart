@@ -9,6 +9,8 @@ class EmpDataCubit extends Cubit<EmpDataState> {
   EmpDataCubit(this.empRepo) : super(DataInitial());
 
   int page = 1;
+
+  //We create an instance of the repo
   final EmpRepo empRepo;
 
   void loadData() {
